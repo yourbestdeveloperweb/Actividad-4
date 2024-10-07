@@ -14,7 +14,7 @@ button {
 }
 
 .Moi {
-    background-color: darkblue;
+    background-color: rgb(47, 47, 70);
     color: rgb(170, 170, 43);
     border-radius: 50px;
 
@@ -23,12 +23,11 @@ button {
 
 
 .la2 {
+background-color: rgb(30, 32, 34);
+border-radius: 50px;
+
+}
     
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f7cbcb;
-        border-radius: 50px;
-    }
     
     .container {
         display: grid;
@@ -74,7 +73,6 @@ button {
         background-color: #218838;
     }
     
-}
 
 
 .la3 {
@@ -138,4 +136,5 @@ button {
     }   
 
 
+}
 }
