@@ -138,6 +138,32 @@ button {
 .mine {
     background-color: rgb(43, 56, 32);
     border-radius: 5%;
-
 }
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Cambiar a columna en móviles */
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        flex-direction: row; /* Cambiar a fila en tablets */
+    }
+}
+
+/* Estilos para pantallas grandes (PCs) */
+@media (min-width: 901px) {
+    .container {
+        flex-direction: row; /* Mantener fila en PCs */
+    }
+}
+
 
