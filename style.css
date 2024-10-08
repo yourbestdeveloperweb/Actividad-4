@@ -14,19 +14,17 @@ button {
 }
 
 .Moi {
-    background-color: rgb(47, 47, 70);
+    background-color: darkblue;
     color: rgb(170, 170, 43);
     border-radius: 50px;
-
-
 }
 
 
-.la2 {
-background-color: rgb(30, 32, 34);
-border-radius: 50px;
-
-}
+.la2  {
+        
+        background-color: #4e66f0;
+        
+    }
     
     .container {
         display: grid;
@@ -53,7 +51,7 @@ border-radius: 50px;
     }
     
     .card h2 {
-        padding: 10px;
+        padding: 5%;
         font-size: 1.2em;
         text-align: center;
     }
@@ -61,9 +59,9 @@ border-radius: 50px;
     .card button {
         background-color: #28a745;
         color: white;
-        border: none;
-        padding: 10px;
-        width: 100%;
+        border-radius: 5;
+        padding: 5%;
+        width: 50%;
         cursor: pointer;
         font-size: 1em;
     }
@@ -74,7 +72,8 @@ border-radius: 50px;
     
 
 
-.la3 {
+
+.la3 
 
     body {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -133,5 +132,12 @@ border-radius: 50px;
         display: block;
         opacity: 1;
     }   
+
+
+
+.mine {
+    background-color: rgb(43, 56, 32);
+    border-radius: 5%;
+
 }
 
